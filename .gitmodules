@@ -1,0 +1,20 @@
+[submodule "odoo/oca_addons/l10n-brazil"]
+	path = odoo/oca_addons/l10n-brazil
+	url = https://github.com/OCA/l10n-brazil.git
+	branch = 16.0
+[submodule "odoo/oca_addons/server-tools"]
+	path = odoo/oca_addons/server-tools
+	url = https://github.com/OCA/server-tools.git
+	branch = 16.0
+[submodule "odoo/oca_addons/web"]
+	path = odoo/oca_addons/web
+	url = https://github.com/OCA/web.git
+	branch = 16.0
+[submodule "odoo/oca_addons/account-financial-tools"]
+	path = odoo/oca_addons/account-financial-tools
+	url = https://github.com/OCA/account-financial-tools.git
+	branch = 16.0
+[submodule "odoo/oca_addons/queue"]
+	path = odoo/oca_addons/queue
+	url = https://github.com/OCA/queue.git
+	branch = 16.0
