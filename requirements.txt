@@ -1,0 +1,44 @@
+# Python dependencies for OCA Brazilian Localization - Odoo 16.0
+# Install with: pip install --break-system-packages -r requirements.txt
+
+# Core Brazilian libraries for fiscal/tax operations
+erpbrasil.base>=2.3.0,<3.0.0
+erpbrasil.assinatura>=2.0.0,<3.0.0
+erpbrasil.transmissao>=1.1.0,<2.0.0
+
+# NFe (Nota Fiscal Eletrônica) libraries
+nfelib>=2.0.0,<3.0.0
+nfselib>=1.0.0,<2.0.0
+
+# SPED (Sistema Público de Escrituração Digital)
+python-sped>=0.3.0
+
+# XML processing and validation
+lxml>=4.9.0
+xmltodict>=0.13.0
+
+# Cryptography for digital certificates (A1)
+cryptography>=41.0.0
+pyOpenSSL>=23.0.0
+
+# PDF processing
+pypdf>=3.0.0
+
+# HTTP requests for web services
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Utilities
+python-decouple>=3.8
+python-dateutil>=2.8.0
+
+# Barcode generation
+python-barcode>=0.15.0
+qrcode>=7.4.0
+Pillow>=10.0.0
+
+# Brazilian phone number validation
+phonenumbers>=8.13.0
+
+# CEP (postal code) validation
+pycep-correios>=5.0.0
