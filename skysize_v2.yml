@@ -1,9 +1,0 @@
-version: 1
-
-build:
-  steps:
-    - git submodule update --init --recursive
-    - pip install --break-system-packages -r requirements.txt
-
-run:
-  command: odoo -c /app/odoo/odoo.conf
